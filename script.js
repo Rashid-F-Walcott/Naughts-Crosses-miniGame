@@ -114,7 +114,9 @@ function gameOver(draw) {
     if (draw){
         winningMessageTextElement.innerText = 'Draw! No Winner'
     } else {
-        winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's" } Win The Game`
+        winningMessageTextElement.innerText = `${circleTurn ? "O" : "X" } Wins The Game`
     }
     winningMessageElement.classList.add('show')
 }
+
+

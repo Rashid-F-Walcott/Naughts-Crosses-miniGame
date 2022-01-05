@@ -140,8 +140,10 @@ cursor: not-allowed;
     align-items: center;
     color: lightgrey;
     font-size: 4rem;
+    font-family: 'Permanent Marker', cursive;
     flex-direction: column;
 }
+
 
 .winning-message button{
     font-size: 3rem;

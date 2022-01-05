@@ -120,3 +120,6 @@ function gameOver(draw) {
 }
 
 
+//NEXT STEP:
+// Potentially add a counter that keeps track of the number of wins for X and for O
+// until the page is refreshed 

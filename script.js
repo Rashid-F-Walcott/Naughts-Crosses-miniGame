@@ -122,7 +122,10 @@ function addCircleWin() {
     circleCounter.innerHTML = circleCount;
 }
 
-
+function addCrossWin() {
+    crossCount++
+    crossCounter.innerHTML = crossCount;
+}
 
 //main function which runs each time the game ends
 function gameOver(draw) {

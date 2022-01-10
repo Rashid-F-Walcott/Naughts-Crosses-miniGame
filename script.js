@@ -147,3 +147,4 @@ function gameOver(draw) {
 // Potentially add a counter that keeps track of the number of wins for X and for O
 // until the page is refreshed 
 
+// logic for scoreboard has been added and works, next is to add css styling

@@ -110,11 +110,31 @@ function isDraw() {
     })
 }
 
+// created last but added here to be used in game over function
+var circleCounter = document.querySelector('.circleCounter')
+let circleCount = 0;
+
+var crossCounter = document.querySelector('.crossCounter');
+let crossCount = 0;
+
+function addCircleWin() {
+    circleCount++
+    circleCounter.innerHTML = circleCount;
+}
+
+
+
+//main function which runs each time the game ends
 function gameOver(draw) {
     if (draw){
         winningMessageTextElement.innerText = 'Draw! No Winner'
     } else {
         winningMessageTextElement.innerText = `${circleTurn ? "O" : "X" } Wins The Game`
+        if (circleTurn == true) {
+            addCircleWin()
+        } else {
+            addCrossWin()
+        }
     }
     winningMessageElement.classList.add('show')
 }
@@ -123,3 +143,4 @@ function gameOver(draw) {
 //NEXT STEP:
 // Potentially add a counter that keeps track of the number of wins for X and for O
 // until the page is refreshed 
+

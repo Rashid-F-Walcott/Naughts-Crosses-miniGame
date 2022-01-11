@@ -214,15 +214,28 @@ cursor: not-allowed;
     
 }
 
-/* @media screen and (max-width: 435px) {
+@media screen and (max-width: 328px) {
+
+    .Note{
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 290px) {
     #mainTitle{
         margin-top: 1.5ex;
         display: flex;
         justify-content: center;
         font-family: 'Permanent Marker', cursive;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: grey;
     
     }
+    .Note{
+        font-size: 0.8rem;
+    }
     
-} */
+}

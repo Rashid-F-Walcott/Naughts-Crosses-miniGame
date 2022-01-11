@@ -13,13 +13,26 @@ body{
 }
 
 #mainTitle{
-    margin-top: 2ex;
+    margin-top: 1.5ex;
     display: flex;
     justify-content: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 3rem;
     color: grey;
+
 }
+
+.counterContainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+
+
+
 
 .board{
     width: 100vw;
@@ -127,6 +140,11 @@ cursor: not-allowed;
     background-color: bisque;
 }
 
+.Note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .winning-message {
     display: none;

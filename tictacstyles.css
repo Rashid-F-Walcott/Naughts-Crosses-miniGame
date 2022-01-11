@@ -30,6 +30,7 @@ body{
     font-family: 'Press Start 2P', cursive;
 }
 
+
 .scoreContainer{
     margin-bottom: 1rem;
 }
@@ -197,3 +198,31 @@ cursor: not-allowed;
 .winning-message.show{
     display: flex;
 }
+
+
+
+@media screen and (max-width: 435px) {
+    #mainTitle{
+        margin-top: 1.5ex;
+        display: flex;
+        justify-content: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2rem;
+        color: grey;
+    
+    }
+    
+}
+
+/* @media screen and (max-width: 435px) {
+    #mainTitle{
+        margin-top: 1.5ex;
+        display: flex;
+        justify-content: center;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 2rem;
+        color: grey;
+    
+    }
+    
+} */
